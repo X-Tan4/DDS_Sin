@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog dist_mem_gen_v8_0_12  \
+"../../../../DDS_Sin.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v" \
+
+verilog xil_defaultlib  \
+"../../../../DDS_Sin.srcs/sources_1/ip/DDS_ROM/sim/DDS_ROM.v" \
+"../../../../DDS_Sin.srcs/sources_1/new/DDS.v" \
+"../../../../DDS_Sin.srcs/sources_1/new/PhaseAdder.v" \
+"../../../../DDS_Sin.srcs/sim_1/new/simu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

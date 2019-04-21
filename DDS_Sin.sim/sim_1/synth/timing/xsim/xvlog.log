@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/synth/timing/xsim/simu_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DDS
+INFO: [VRFC 10-311] analyzing module DDS_ROM
+INFO: [VRFC 10-311] analyzing module PhaseAdder
+INFO: [VRFC 10-311] analyzing module DDS_ROM_dist_mem_gen_v8_0_12
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sim_1/new/simu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simu

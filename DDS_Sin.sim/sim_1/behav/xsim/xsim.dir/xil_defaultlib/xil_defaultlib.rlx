@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sim_1/new/simu.v,1555334389,verilog,,,,simu,,,,,,,,
+D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/ip/DDS_ROM/sim/DDS_ROM.v,1555309236,verilog,,D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/DDS.v,,DDS_ROM,,,,,,,,
+D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/DDS.v,1555333561,verilog,,D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/PhaseAdder.v,,DDS,,,,,,,,
+D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/PhaseAdder.v,1555310719,verilog,,D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sim_1/new/simu.v,,PhaseAdder,,,,,,,,

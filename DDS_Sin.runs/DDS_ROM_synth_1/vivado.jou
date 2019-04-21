@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 15 14:20:44 2019
+# Process ID: 19820
+# Current directory: D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.runs/DDS_ROM_synth_1
+# Command line: vivado.exe -log DDS_ROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DDS_ROM.tcl
+# Log file: D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.runs/DDS_ROM_synth_1/DDS_ROM.vds
+# Journal file: D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.runs/DDS_ROM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source DDS_ROM.tcl -notrace

@@ -1,0 +1,16 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/FPGA/anzhuanweizhi/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 143a3260c50f4a4086449cb0096ab5b9 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simu_behav xil_defaultlib.simu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PhaseAdder
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="z...
+Compiling module xil_defaultlib.DDS_ROM
+Compiling module xil_defaultlib.DDS
+Compiling module xil_defaultlib.simu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simu_behav

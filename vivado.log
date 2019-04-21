@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 19 11:00:26 2019
+# Process ID: 15384
+# Current directory: D:/FPGA/Xilinx_Vivoda/DDS_Sin
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6416 D:\FPGA\Xilinx_Vivoda\DDS_Sin\DDS_Sin.xpr
+# Log file: D:/FPGA/Xilinx_Vivoda/DDS_Sin/vivado.log
+# Journal file: D:/FPGA/Xilinx_Vivoda/DDS_Sin\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/FPGA/anzhuanweizhi/Vivado/2017.4/data/ip'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exicreate_run impl_2 -parent_run synth_1 -flow {Vivado Implementation 2017} -strategy {Vivado Implementation Defaults} -report_strategy {Vivado Implementation Default Reports}
+Run is defaulting to parent run srcset: sources_1
+Run is defaulting to parent run constrset: constrs_1
+Run is defaulting to parent run part: xc7z020clg484-1
+current_run [get_runs impl_2]
+set_property part xc7a100tfgg484-2 [current_project]
+WARNING: [IP_Flow 19-2162] IP 'DDS_ROM' is locked:
+* Current project part 'xc7a100tfgg484-2' and the part 'xc7z020clg484-1' used to customize the IP 'DDS_ROM' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/software/FPGA/anzhuanweizhi/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simu' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim/DDS_ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim/dds_rom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simu_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_12
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_12
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/FPGA/anzhuanweizhi/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 143a3260c50f4a4086449cb0096ab5b9 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simu_behav xil_defaultlib.simu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PhaseAdder
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="z...
+Compiling module xil_defaultlib.DDS_ROM
+Compiling module xil_defaultlib.DDS
+Compiling module xil_defaultlib.simu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simu_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim/xsim.dir/simu_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 19 11:02:09 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 853.133 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simu_behav -key {Behavioral:sim_1:Functional:simu} -tclbatch {simu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source simu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 40960ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 855.238 ; gain = 2.105
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 40960ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 855.238 ; gain = 2.105
+WARNING: [Vivado 12-4144] IP run DDS_ROM_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tfgg484-2
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/ip/DDS_ROM/DDS_ROM.xci
+
+Top: DDS
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 970.984 ; gain = 107.406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DDS' [D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/DDS.v:23]
+INFO: [Synth 8-638] synthesizing module 'PhaseAdder' [D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/PhaseAdder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PhaseAdder' (1#1) [D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/PhaseAdder.v:23]
+INFO: [Synth 8-638] synthesizing module 'DDS_ROM' [D:/FPGA/Xilinx_Vivoda/DDS_Sin/.Xil/Vivado-8232-LAPTOP-87VRH6PD/realtime/DDS_ROM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'DDS_ROM' (2#1) [D:/FPGA/Xilinx_Vivoda/DDS_Sin/.Xil/Vivado-8232-LAPTOP-87VRH6PD/realtime/DDS_ROM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'DDS' (3#1) [D:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/new/DDS.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1009.980 ; gain = 146.402
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1009.980 ; gain = 146.402
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/FPGA/Xilinx_Vivoda/DDS_Sin/DDS_Sin.srcs/sources_1/ip/DDS_ROM/DDS_ROM.dcp' for cell 'u_DDS'
+INFO: [Netlist 29-17] Analyzing 183 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 12 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1360.125 ; gain = 496.547
+15 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1360.125 ; gain = 497.887
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1360.125 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 19 16:22:37 2019...
